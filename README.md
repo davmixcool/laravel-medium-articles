@@ -58,7 +58,7 @@ Setup default medium widget in `medium.php` config. (Optional but recommended)
 
 Option | Description
 --------- | -------
-`renderTo` | By Default the widget is render to `laravel-medium-widget`. But you can specify your own custom element ID where you want to render the widget.
+`renderTo` | By Default the widget is rendered to `laravel-medium-widget`. But you can specify your own custom element ID where you want to render the widget.
 `id` | A random unique ID to identify the widget. This is very useful when you need to include multiple widgets on one page.
 `username` | Your medium username.
 
@@ -72,7 +72,7 @@ Option | Description
 `layout.type` | The way you want your articles to be displayed.
 `layout.limit` | The number of articles to show.
 `layout.column` | Define how many columns you want.
-`layout.size` | By default image size are set to big but you can choose a small picture preview size if you want to show article images at the left side. Options are: `big` | `small` | `off`
+`layout.size` | By default image size are set to big but you can choose a small picture preview size if you want to show article images at the left side. Options are: `big`, `small` and `off`.
 `layout.ratio` | Define an aspect ratio for your article images. Default is `landscape` and options are: `landscape`, `original`, `square`.
 `layout.pagination` | By default pagination is `off` but you can enable pagination to display a load more button. Options are: `on` and `off`.
 `layout.pagination_text` | The text on the pagination button. Default is `See More Articles`. You can specify any text you want.
@@ -100,14 +100,12 @@ Choose the action you want to execute when a reader clicks on your article.
 Option | Description
 --------- | -------
 `target.value` | The action you want to execute when a reader clicks on your article. Default is `external` which will redirect your reader to the article. Options are: `external` and `capture` which will open a modal to collect your reader email and name before they proceed to your post.
-
 `target.capture.style` | The popup style to show. Default is `modal-default` which opens a normal modal. Options are: `modal-default` and `modal-full` which opens a modal to cover the entire window.
 `target.capture.email` | By default capture email is `on` but you can disable it to not collect reader's email. Options are: `on` and `off`.
 `target.capture.name` | By default capture name is `off` but you can enable it to collect reader's name. Options are: `on` and `off`.
 `target.capture.message` | An info message to show to the reader on the modal before they proceed. Default is `Drop your details to proceed`
 `target.capture.button_text` | The text on the capture submit button. Default is `Proceed to Post`
 `target.capture.webhook_status` | By default capture webhook status is `false` but you can enable it to submit collected details to webhook url. Options are: `true` and `false`.
-
 `target.capture.webhook_url` | The webhook url to submit collected details to. It can be Zapier, IFTTT or a Custom webhook.
 
 
@@ -127,7 +125,7 @@ The above will use the predefined configurations to prefill the generated widget
 ```php
 @include('medium::widget', [
     'username' => 'iamdavidoti',
-    'id'   => 27623742,
+    'id'   => 27623742, //This id should be unique for each widget you include on a page.
 ])
 ```
 
@@ -164,3 +162,7 @@ This package is maintained by [David Oti](http://github.com/davmixcool) and you!
 ### License
 
 This package is licensed under the [MIT license](https://github.com/davmixcool/laravel-medium/blob/master/LICENSE).
+
+### Reference
+
+This package is powered by [Mediumable](https://mediumable.io).
