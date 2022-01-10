@@ -1,9 +1,9 @@
-# Laravel Medium
+# Laravel Medium Articles
 
-Laravel Medium is a laravel package that allows website owners to easily embed Medium.com articles on their site. Embed articles as grid post formats or as scrolling galleries. This package is powered by [Mediumable](https://mediumable.io). 
+Laravel Medium Articles is a laravel package that allows website owners to easily embed Medium.com articles on their site. Embed articles as grid post formats or as scrolling galleries. This package is powered by [Mediumable](https://mediumable.io). 
 
 
-[![GitHub license](https://img.shields.io/github/license/davmixcool/laravel-medium.svg)](https://github.com/davmixcool/laravel-medium/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/davmixcool/laravel-medium.svg)](https://github.com/davmixcool/laravel-medium/issues)
+[![GitHub license](https://img.shields.io/github/license/davmixcool/laravel-medium-articles.svg)](https://github.com/davmixcool/laravel-medium-articles/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/davmixcool/laravel-medium-articles.svg)](https://github.com/davmixcool/laravel-medium-articles/issues)
 
 
 ## Features
@@ -34,7 +34,7 @@ Laravel Medium is a laravel package that allows website owners to easily embed M
 Run the following to include this package via Composer
 
 ```shell
-composer require davmixcool/laravel-medium
+composer require davmixcool/laravel-medium-articles
 ```
 
 #### Laravel 5.5+ uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
@@ -47,7 +47,7 @@ Once download is complete, the next thing you have to do is include the service 
         Davmixcool\Medium\MediumServiceProvider::class,
 ];
 ```
-Then run `php artisan vendor:publish --provider="Davmixcool\Medium\MediumServiceProvider"` to get the config of Laravel Medium.
+Then run `php artisan vendor:publish --provider="Davmixcool\Medium\MediumServiceProvider"` to get the config of Laravel Medium Articles.
 
 
 ### Configuration
@@ -58,7 +58,7 @@ Setup default medium widget in `medium.php` config. (Optional but recommended)
 
 Option | Description
 --------- | -------
-`renderTo` | By Default the widget is rendered to `laravel-medium-widget`. But you can specify your own custom element ID where you want to render the widget.
+`renderTo` | By Default the widget is rendered to `laravel-medium-articles`. But you can specify your own custom element ID where you want to render the widget.
 `id` | A random unique ID to identify the widget. This is very useful when you need to include multiple widgets on one page.
 `username` | Your medium username.
 
@@ -161,7 +161,7 @@ This package is maintained by [David Oti](http://github.com/davmixcool) and you!
 
 ### License
 
-This package is licensed under the [MIT license](https://github.com/davmixcool/laravel-medium/blob/master/LICENSE).
+This package is licensed under the [MIT license](https://github.com/davmixcool/laravel-medium-articles/blob/master/LICENSE).
 
 ### Reference
 

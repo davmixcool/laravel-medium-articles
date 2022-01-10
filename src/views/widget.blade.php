@@ -63,7 +63,7 @@
 
 
 @endphp
-<div id="laravel-medium-widget"></div>
+<div id="laravel-medium-articles"></div>
 <script>
 	setTimeout(function() {
 		Mediumable.Init({ 

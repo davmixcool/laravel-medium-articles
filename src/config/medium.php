@@ -12,7 +12,7 @@ return [
 
 
     //An element to render the widget
-    'renderTo' =>  "laravel-medium-widget",
+    'renderTo' =>  "laravel-medium-articles",
 
 
     //A random unique id
