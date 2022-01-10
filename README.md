@@ -1,6 +1,6 @@
 # Laravel Medium
 
-Laravel Meidum is a laravel package that allows website owners to easily embed Medium.com articles on their site. Embed articles as grid post formats or as scrolling galleries. This package is powered by [Mediumable](https://mediumable.io). 
+Laravel Medium is a laravel package that allows website owners to easily embed Medium.com articles on their site. Embed articles as grid post formats or as scrolling galleries. This package is powered by [Mediumable](https://mediumable.io). 
 
 
 [![GitHub license](https://img.shields.io/github/license/davmixcool/laravel-medium.svg)](https://github.com/davmixcool/laravel-medium/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/davmixcool/laravel-medium.svg)](https://github.com/davmixcool/laravel-medium/issues)
