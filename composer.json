@@ -1,0 +1,35 @@
+{
+    "name": "davmixcool/laravel-medium",
+    "type": "library",
+    "description": "Laravel Meidum is a laravel package that allows website owners to easily embed Medium.com articles on their site. Embed articles as standard post formats or as scrolling galleries. We are powered by mediumable.",
+    "keywords": ["embed","articles","iamdavidoti","davmixcool","laravel-medium","medium","widget"],
+    "homepage": "https://github.com/davmixcool/laravel-medium",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Oti",
+            "email": "davmixcool@gmail.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davmixcool\\Medium\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davmixcool\\Medium\\MediumServiceProvider"
+            ]
+        }
+    },
+    
+    "minimum-stability": "stable"
+}
